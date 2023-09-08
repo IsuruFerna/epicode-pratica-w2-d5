@@ -1,0 +1,147 @@
+/* Your styles here */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #e9edee;
+   width: 100%;
+}
+
+h1 {
+   font-size: 3em;
+   padding: 0.6em;
+   font-weight: bold;
+}
+
+h2 {
+   font-size: 1.8em;
+   font-weight: 600;
+}
+
+a {
+   margin: 0.6em;
+   font-weight: 700;
+   text-decoration: none;
+   font-size: 1.4em;
+   color: #1b6c80;
+}
+
+.pd-1 {
+   padding: 1em;
+}
+
+.pd-x {
+   margin: 0 2em;
+}
+
+.mg-yl-1per {
+   margin-left: 1%;
+}
+
+.mg-yb {
+   margin-bottom: 2em;
+}
+
+.tx-al-center {
+   text-align: center;
+}
+
+nav ul li {
+   display: inline-block;
+   font-size: 1.2em;
+   padding: 0.4em;
+}
+
+nav ul li a {
+   font-size: 1em;
+   font-weight: 400;
+   margin: 0;
+}
+
+.container-banner {
+   font-weight: bold;
+   background-image: url("/assets/images/bg-image.png");
+   padding: 3em;
+   object-fit: cover;
+   /* object-position: center; */
+   /* background-size: cover; */
+}
+
+.container-banner p {
+   font-size: 1.8em;
+}
+
+.container-orange,
+.bg-color-primary,
+.bg-color-secondary,
+.container-banner,
+nav a,
+footer a {
+   color: #eff7fb;
+}
+
+.bg-color-primary {
+   background-color: #222f3f;
+}
+
+.bg-color-secondary {
+   background-color: #364759;
+}
+
+.bg-color-third {
+   background-color: #ffffff;
+}
+
+.container-main {
+   margin: 2%;
+}
+
+.container-img {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.container-orange {
+   background-color: #f56600;
+   font-size: 1.2em;
+   padding: 0.6em;
+}
+
+.title-secondary a,
+.title-secondary h2 {
+   display: inline-block;
+}
+
+.content-img {
+   display: inline-block;
+   width: 22.5%;
+   margin: 1%;
+   height: 30vh;
+   object-fit: cover;
+   border-radius: 25px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.img-long {
+   width: 100%;
+}
+
+header img {
+   width: 200px;
+   padding: 1em 0;
+}
+
+footer img {
+   width: 400px;
+   padding: 4em;
+}
+
+footer a {
+   text-decoration: underline;
+}
